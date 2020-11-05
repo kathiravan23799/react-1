@@ -1,0 +1,96 @@
+.popup{
+    position: relative;
+    width: 90%;
+    height: 390px;
+    left: 20px;
+    top: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lightgray;
+    transition: 1s;
+}
+.input_text{
+    width: 100%;
+    border: 1px solid lightgray;
+    text-align: center;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+}
+
+.input_btns{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding: 20px;
+}
+.input_btns_one{
+    width: 150px;
+    left: 0px;
+}
+.input_btns_two{
+    width: 150px;
+    right: 0px;
+    margin-left: 10px;
+}
+.input_btns_three{
+    width: 150px;
+    right: 0px;
+    margin-left: 10px;
+}
+.ticket_input_btn{
+    width: 90px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    
+    height: 40px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.buy_btn{
+    position: relative;
+    left: 225px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.heading_container{
+    position: relative;
+    height: 50px;
+    background-color: purple;
+    width: 109%;
+    height: 20%;
+    left: -15px;
+    top: -15px;
+    padding: 20px;
+    
+}
+
+.close-btn-X{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    border: 1px solid lightgray;
+    background: lightgray;
+    font-size: 15px;
+    color: black;
+    font-weight: 800;
+    outline: none;
+    border-radius: 20px;
+}
