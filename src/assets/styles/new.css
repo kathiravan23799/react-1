@@ -1,0 +1,85 @@
+#link-menu{
+    position: relative;
+    margin-left: 30px;
+}
+
+.logo-image{
+    position: relative;
+    min-width:100px;
+    max-width: 150px;
+    top: 20px;
+}
+.side-mobile{
+    position: relative;
+    min-width: 100px;
+    max-width: 500px;
+    left: -55px;
+    top: 50px;
+}
+.text-row-h3{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+    font-family: fantasy;
+    
+}
+
+#header{
+    position: fixed;
+}
+.text-row{
+    position: relative;
+    left: 600px;  
+}
+
+.playnow-btn{
+    border: none;
+}
+.playnow-btn button{
+    position: relative;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #f9b827;
+}
+.index-main-container{
+    position: relative;
+    overflow-y: scroll;
+}
+
+@media (max-width:500px){
+    .side-mobile{
+        position: relative;
+        max-width: 300px;
+    }
+    .text-row-h3{
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+    .text-row{
+        position: absolute;
+        top: 40px;
+        left: 0px;
+    }
+    .playnow-btn button{
+        position: relative;
+        width: 200px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background: #f9b827;
+        top: -320px;
+        left: -10px;
+    }
+    .index-main-container{
+        position: relative;
+        top: 50px;
+    }
+    #home{
+        
+        position: relative;
+        height: 500px;
+    }
+}
